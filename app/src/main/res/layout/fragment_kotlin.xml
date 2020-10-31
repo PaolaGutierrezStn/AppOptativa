@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KotlinFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvKotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KOTLIN"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTitleYw"
+        android:textSize="20pt" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/dato" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kotlinTeoria"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

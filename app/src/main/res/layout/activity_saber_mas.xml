@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicaciones desarrolladas con JAVA"
+        android:textColor="@color/colorTitle"
+        android:textSize="15pt" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logojava" />
+
+    <RadioButton
+        android:id="@+id/rbNasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:checked="true"
+        android:text="NASA WorldWind" />
+
+    <RadioButton
+        android:id="@+id/rbBW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:text="Búsqueda en Wikipedia" />
+
+    <RadioButton
+        android:id="@+id/rbMft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:text="Minecraft" />
+
+    <RadioButton
+        android:id="@+id/rbNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:text="NetBeans y Eclipse IDE" />
+
+    <RadioButton
+        android:id="@+id/rbJen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:text="Jenkins" />
+
+    <RadioButton
+        android:id="@+id/rbInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:text="IntelliJ IDEA" />
+
+
+
+</LinearLayout>

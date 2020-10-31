@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Lenguajes programación</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="noche">Noche</string>
+    <string name="creditos">Creditos</string>
+    <string name="nombre">Paola Guadalupe Gutiérrez Santana</string>
+    <string name="grupo">GITI11093-S</string>
+    <string name="salir">Salir</string>
+
+    <string name="javaTeoria">Es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes.</string>
+    <string name="kotlinTeoria">Kotlin es un lenguaje de programación de tipado estático que corre sobre la máquina virtual de Java y que también puede ser compilado a código fuente de JavaScript. Aunque no tiene una sintaxis compatible con Java, Kotlin está diseñado para interoperar con código Java y es dependiente del código Java de su biblioteca de clases, tal como pueda ser el entorno de colecciones de Java.</string>
+
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="login">Ingresar</string>
+
+    <string name="sabermas">Saber más</string>
+    <string name="saber_m_s">Saber más</string>
+    <string name="opciones">Opciones</string>
+</resources>
